@@ -16,10 +16,10 @@ on:
         description: "只执行指定账号名，留空执行全部账号"
         required: false
         type: string
-  schedule:
+  #schedule:
     # 默认每天北京时间 09:20 执行。修改时间时只改 cron 即可。
-    - cron: "30 0 * * *"
-      timezone: "Asia/Shanghai"
+    #- cron: "30 0 * * *"
+      #timezone: "Asia/Shanghai"
 
 permissions:
   contents: read
